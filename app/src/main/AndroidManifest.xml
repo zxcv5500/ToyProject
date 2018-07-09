@@ -32,9 +32,12 @@
             android:name=".book.apc.andexam.ver6.c33_multimedia.CameraTest"
             android:label="CameraTest"
             android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.andexam.ver6.c33_multimedia.AttachImage" android:label="AttachImage"
-            android:screenOrientation="landscape"
-            />
+        <activity
+            android:name=".book.apc.andexam.ver6.c33_multimedia.AttachImage"
+            android:label="AttachImage"
+            android:screenOrientation="landscape" />
+        <activity android:name=".book.apc.andexam.ver6.c33_multimedia.SHCamera"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

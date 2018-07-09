@@ -27,6 +27,7 @@ import android.widget.TextView;
 import com.zxcv5500.toyproject.R;
 import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.CameraTest;
+import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.SHCamera;
 
 import java.util.ArrayList;
 
@@ -114,6 +115,7 @@ public class AndExam extends Activity {
             case 33: // 멀티미디어
                 arExample.add(new Example(CameraTest.class, "촬영만 가능한 카메라 예제"));
                 arExample.add(new Example(AttachImage.class, "카메라, 갤러리를 호출하여 첨부 이미지 얻기"));
+                arExample.add(new Example(SHCamera.class, "카메라 advance 예제"));
                 break;
             case 34: // 센서
                 break;
