@@ -26,17 +26,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".book.apc.andexam.ver6.AndExam" />
-        <activity android:name=".book.apc.andexam.ver6.AndExamSetting" />
+        <activity android:name=".book.apc.AndExam" />
+        <activity android:name=".book.apc.AndExamSetting" />
         <activity
-            android:name=".book.apc.andexam.ver6.c33_multimedia.CameraTest"
+            android:name=".book.apc.c33_multimedia.CameraTest"
             android:label="CameraTest"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".book.apc.andexam.ver6.c33_multimedia.AttachImage"
+            android:name=".book.apc.c33_multimedia.AttachImage"
             android:label="AttachImage"
             android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.andexam.ver6.c33_multimedia.SHCamera"
+        <activity android:name=".book.apc.c33_multimedia.SHCamera"
             android:screenOrientation="landscape"/>
     </application>
 

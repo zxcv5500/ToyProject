@@ -1,4 +1,4 @@
-package com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia;
+package com.zxcv5500.toyproject.book.apc.c33_multimedia;
 
 import android.app.Activity;
 import android.app.AlertDialog;

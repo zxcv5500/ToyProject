@@ -1,4 +1,4 @@
-package com.zxcv5500.toyproject.book.apc.andexam.ver6;
+package com.zxcv5500.toyproject.book.apc;
 
 import android.app.Activity;
 import android.content.Intent;

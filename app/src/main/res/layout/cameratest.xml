@@ -28,7 +28,7 @@
             android:paddingBottom="10pt"
             />
     </LinearLayout>
-    <com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.MyCameraSurface
+    <MyCameraSurface
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.zxcv5500.toyproject.book.apc.andexam.ver6.AndExam;
+import com.zxcv5500.toyproject.book.apc.AndExam;
 
 public class MainActivity extends AppCompatActivity {
 

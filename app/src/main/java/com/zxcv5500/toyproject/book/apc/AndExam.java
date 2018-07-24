@@ -1,4 +1,4 @@
-package com.zxcv5500.toyproject.book.apc.andexam.ver6;
+package com.zxcv5500.toyproject.book.apc;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -25,9 +25,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.zxcv5500.toyproject.R;
-import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.AttachImage;
-import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.CameraTest;
-import com.zxcv5500.toyproject.book.apc.andexam.ver6.c33_multimedia.SHCamera;
+import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
+import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
+import com.zxcv5500.toyproject.book.apc.c33_multimedia.SHCamera;
 
 import java.util.ArrayList;
 
