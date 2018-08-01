@@ -25,6 +25,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.zxcv5500.toyproject.R;
+import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.SHCamera;
@@ -89,7 +90,7 @@ public class AndExam extends Activity {
             case 20: // 프래그먼트
                 break;
             case 21: // 액션바
-
+                arExample.add(new Example(ActionBarTest.class, "액션 바 테스트"));
                 break;
             case 22: // 그리기
                 break;
