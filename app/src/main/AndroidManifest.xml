@@ -36,8 +36,10 @@
             android:name=".book.apc.c33_multimedia.AttachImage"
             android:label="AttachImage"
             android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.c33_multimedia.SHCamera"
-            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".book.apc.c33_multimedia.SHCamera"
+            android:screenOrientation="landscape" />
+        <activity android:name=".book.apc.c21_actionbar.ActionBarTest"></activity>
     </application>
 
 </manifest>

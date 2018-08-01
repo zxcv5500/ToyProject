@@ -89,6 +89,7 @@ public class AndExam extends Activity {
             case 20: // 프래그먼트
                 break;
             case 21: // 액션바
+
                 break;
             case 22: // 그리기
                 break;

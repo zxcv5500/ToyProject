@@ -11,4 +11,12 @@
         android:layout_height="wrap_content"
         android:text="안드로이드 프로그래밍 정복 예제보기"
         />
+
+
+    <TextView
+        android:id="@+id/bookKA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카메라v2실행"
+        />
 </LinearLayout>
