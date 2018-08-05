@@ -12,7 +12,8 @@
           <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
           <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
         </list>
-      </value>    </option>
+      </value>
+    </option>
     <option name="myNotNulls">
       <value>
         <list size="4">
