@@ -40,6 +40,7 @@ import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.SHCamera;
+import com.zxcv5500.toyproject.book.apc.c07_output.CustomView;
 
 import java.util.ArrayList;
 
@@ -92,6 +93,31 @@ public class AndExam extends Activity {
 //                arExample.add(new Example(InputForm.class, "그리드를 이용한 입력 폼"));
                 break;
             case 7: // 출력
+                arExample.add(new Example(CustomView.class, "커스텀 뷰에 직접 그리기"));
+//                arExample.add(new Example(Primitive1.class, "기본 도형-점,선,원,사각형,문자열"));
+//                arExample.add(new Example(Primitive2.class, "기본 도형-둥근 사각형,타원,반원,다각선"));
+//                arExample.add(new Example(AntiAlias.class, "안티 알리아싱 옵션"));
+//                arExample.add(new Example(Stroke.class, "굵기, 끝장식, 조인 등 선의 속성"));
+//                arExample.add(new Example(PaintStyle.class, "채움 및 외곽선 그리기 스타일"));
+//                arExample.add(new Example(NewPaint.class, "Paint 객체 매번 생성하기"));
+//                arExample.add(new Example(PrePaint.class, "Paint 객체를 미리 생성해 놓기"));
+//                arExample.add(new Example(DrawBitmap.class, "비트맵 이미지 출력. 확대 및 일부 영역 출력"));
+//                arExample.add(new Example(OffScreen.class, "메모리에서 비트맵 생성하기"));
+//                arExample.add(new Example(DrawText.class, "텍스트 출력"));
+//                arExample.add(new Example(TypeFace.class, "텍스트의 타입 페이스"));
+//                arExample.add(new Example(CustomFont.class, "커스텀 폰트 사용하기"));
+//                arExample.add(new Example(DrawPath.class, "패스 출력"));
+//                arExample.add(new Example(LinearGrad.class, "직선 그래디언트"));
+//                arExample.add(new Example(RadialGrad.class, "원형 그래디언트"));
+//                arExample.add(new Example(SweepGrad.class, "원주 그래디언트"));
+//                arExample.add(new Example(BitmapSdr.class, "비트맵 셰이더"));
+//                arExample.add(new Example(ComposeSdr.class, "조합 셰이더"));
+//                arExample.add(new Example(MirrorImage.class, "조합 셰이더를 이용한 반사 이미지"));
+//                arExample.add(new Example(Shape.class, "셰이프 드로블 출력"));
+//                arExample.add(new Example(ToastTest.class, "토스트 출력"));
+//                arExample.add(new Example(Beep.class, "간단한 비프음"));
+//                arExample.add(new Example(Vibrate.class, "폰 진동시키기"));
+//                arExample.add(new Example(PermModel.class, "퍼미션 모델 테스트 예제. 별도 제공되는 예제 참조"));
                 break;
             case 8: // 입력
                 break;
