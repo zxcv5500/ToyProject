@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.zxcv5500.toyproject.book.apc.AndExam;
-import com.zxcv5500.toyproject.book.ka.ch28.Lab28_2Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tvKA.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Lab28_2Activity.class));
-            }
-        });
+//        tvKA.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(MainActivity.this, Lab28_2Activity.class));
+//            }
+//        });
     }
 }

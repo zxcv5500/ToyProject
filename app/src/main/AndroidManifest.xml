@@ -39,10 +39,15 @@
         <activity
             android:name=".book.apc.c33_multimedia.SHCamera"
             android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.c21_actionbar.ActionBarTest"/>
+        <activity android:name=".book.apc.c21_actionbar.ActionBarTest" />
 
         <!-- 강쌤 책 액티비티들 -->
-        <activity android:name=".book.ka.ch28.Lab28_2Activity"/>
+        <!-- <activity android:name=".book.ka.ch28.Lab28_2Activity"/> -->
+        <activity android:name=".book.apc.c06_layoutparameter.Inflation" />
+        <activity android:name=".book.apc.c06_layoutparameter.Inflation2"/>
+        <activity android:name=".book.apc.c06_layoutparameter.Inflation3"/>
+        <activity android:name=".book.apc.c06_layoutparameter.Inflation4"/>
+        <activity android:name=".book.apc.c06_layoutparameter.Inflation5"/>
     </application>
 
 </manifest>

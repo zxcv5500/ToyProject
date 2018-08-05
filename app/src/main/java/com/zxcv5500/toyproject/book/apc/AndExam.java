@@ -25,6 +25,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.zxcv5500.toyproject.R;
+import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.Inflation;
+import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.Inflation2;
+import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.Inflation3;
+import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.Inflation4;
+import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.Inflation5;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
@@ -60,6 +65,11 @@ public class AndExam extends Activity {
             case 5: // 레이아웃
                 break;
             case 6: // 레이아웃 관리
+                arExample.add(new Example(Inflation.class, "XML로 레이아웃 전개"));
+                arExample.add(new Example(Inflation2.class, "코드로 레이아웃 생성"));
+                arExample.add(new Example(Inflation3.class, "XML문서를 전개하여 배치"));
+	            arExample.add(new Example(Inflation4.class, "텍스트 뷰만 전개하여 리니어에 추가하기"));
+	            arExample.add(new Example(Inflation5.class, "실행중에 차일드 뷰 전개하여 추가하기"));
                 break;
             case 7: // 출력
                 break;
