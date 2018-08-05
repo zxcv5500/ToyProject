@@ -48,13 +48,15 @@
         <activity android:name=".book.apc.c06_layoutparameter.Inflation3" />
         <activity android:name=".book.apc.c06_layoutparameter.Inflation4" />
         <activity android:name=".book.apc.c06_layoutparameter.Inflation5" />
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter"></activity>
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2"></activity>
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3"></activity>
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter"></activity>
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter2"></activity>
-        <activity android:name=".book.apc.c06_layoutparameter.SetParameter"></activity>
-        <activity android:name=".book.apc.c07_output.CustomView"></activity>
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter"/>
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2"/>
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3"/>
+        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter"/>
+        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter2"/>
+        <activity android:name=".book.apc.c06_layoutparameter.SetParameter"/>
+        <!-- apc c07 출력 -->
+        <activity android:name=".book.apc.c07_output.CustomView"/>
+        <activity android:name=".book.apc.c07_output.Primitive1"/>
 
     </application>
 
