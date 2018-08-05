@@ -57,6 +57,8 @@
         <!-- apc c07 출력 -->
         <activity android:name=".book.apc.c07_output.CustomView"/>
         <activity android:name=".book.apc.c07_output.Primitive1"/>
+        <activity android:name=".book.apc.c07_output.Primitive2"/>
+        <activity android:name=".book.apc.c07_output.AntiAlias"/>
 
     </application>
 

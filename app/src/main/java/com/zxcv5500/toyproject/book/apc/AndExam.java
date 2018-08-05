@@ -36,8 +36,10 @@ import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.LayoutParameter3;
 import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.MarginParameter;
 import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.MarginParameter2;
 import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.SetParameter;
+import com.zxcv5500.toyproject.book.apc.c07_output.AntiAlias;
 import com.zxcv5500.toyproject.book.apc.c07_output.CustomView;
 import com.zxcv5500.toyproject.book.apc.c07_output.Primitive1;
+import com.zxcv5500.toyproject.book.apc.c07_output.Primitive2;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
@@ -96,8 +98,8 @@ public class AndExam extends Activity {
             case 7: // 출력
                 arExample.add(new Example(CustomView.class, "커스텀 뷰에 직접 그리기"));
                 arExample.add(new Example(Primitive1.class, "기본 도형-점,선,원,사각형,문자열"));
-//                arExample.add(new Example(Primitive2.class, "기본 도형-둥근 사각형,타원,반원,다각선"));
-//                arExample.add(new Example(AntiAlias.class, "안티 알리아싱 옵션"));
+                arExample.add(new Example(Primitive2.class, "기본 도형-둥근 사각형,타원,반원,다각선"));
+                arExample.add(new Example(AntiAlias.class, "안티 알리아싱 옵션"));
 //                arExample.add(new Example(Stroke.class, "굵기, 끝장식, 조인 등 선의 속성"));
 //                arExample.add(new Example(PaintStyle.class, "채움 및 외곽선 그리기 스타일"));
 //                arExample.add(new Example(NewPaint.class, "Paint 객체 매번 생성하기"));
