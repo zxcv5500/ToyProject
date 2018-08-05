@@ -35,6 +35,9 @@ public class PaintStyle extends Activity {
 			// 외곽선 그리기
 			Pnt.setStyle(Paint.Style.STROKE);
 			canvas.drawCircle(150,50,40,Pnt);
+			// 외곽선 및 채우기
+			Pnt.setStyle(Paint.Style.FILL_AND_STROKE);
+			canvas.drawCircle(250,50,40,Pnt);
 			// 파란색으로 채우고 빨간색으로 외곽선 그리기
 			Pnt.setColor(Color.BLUE);
 			Pnt.setStyle(Paint.Style.FILL);
