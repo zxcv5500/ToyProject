@@ -66,6 +66,9 @@
         <activity android:name=".book.apc.c07_output.PaintStyle"/>
         <activity android:name=".book.apc.c07_output.NewPaint"/>
         <activity android:name=".book.apc.c07_output.PrePaint"/>
+        <activity android:name=".book.apc.c07_output.DrawBitmap"/>
+        <activity android:name=".book.apc.c07_output.OffScreen"/>
+        <activity android:name=".book.apc.c07_output.DrawText"/>
 
 
         <!-- apc c07 출력  end -->
