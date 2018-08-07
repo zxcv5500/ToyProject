@@ -6,6 +6,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -58,7 +59,17 @@ public class DrawText extends Activity {
 			Pnt.setTextSize(40);
 			canvas.drawText("Hy", 125, 180, Pnt);
 
-
+			// 여러 가지 속성 동시에 적용해 보기
+			Pnt.setColor(Color.BLUE);
+			Pnt.setTextAlign(Paint.Align.LEFT);
+			Pnt.setTextSize(30);
+			Pnt.setTypeface(Typeface.create((String)null, Typeface.BOLD));
+			Pnt.setUnderlineText(true);
+			Pnt.setStrikeThruText(true);
+			Pnt.setSubpixelText(true);
+			Pnt.setTextSkewX(-0.25f);
+			Pnt.setTextScaleX(0.8f);
+			canvas.drawText(str, 10, 220, Pnt);
 		}
 	}
 }

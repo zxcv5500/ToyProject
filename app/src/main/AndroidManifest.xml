@@ -69,7 +69,8 @@
         <activity android:name=".book.apc.c07_output.DrawBitmap"/>
         <activity android:name=".book.apc.c07_output.OffScreen"/>
         <activity android:name=".book.apc.c07_output.DrawText"/>
-
+        <activity android:name=".book.apc.c07_output.TypeFace"/>
+        <activity android:name=".book.apc.c07_output.DrawPath"/>
 
         <!-- apc c07 출력  end -->
 
