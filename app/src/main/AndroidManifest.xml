@@ -42,7 +42,7 @@
         <activity android:name=".book.apc.c21_actionbar.ActionBarTest" />
 
         <!-- 강쌤 책 액티비티들 -->
-        <activity android:name=".book.ka.ch28.Lab28_2Activity"/>
+        <activity android:name=".book.ka.ch28.Lab28_2Activity" />
 
         <!-- c06 레이아웃 관리 start -->
         <activity android:name=".book.apc.c06_layoutparameter.Inflation" />
@@ -50,31 +50,35 @@
         <activity android:name=".book.apc.c06_layoutparameter.Inflation3" />
         <activity android:name=".book.apc.c06_layoutparameter.Inflation4" />
         <activity android:name=".book.apc.c06_layoutparameter.Inflation5" />
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter"/>
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2"/>
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3"/>
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter"/>
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter2"/>
-        <activity android:name=".book.apc.c06_layoutparameter.SetParameter"/>
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter" />
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2" />
+        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3" />
+        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter" />
+        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter2" />
+        <activity android:name=".book.apc.c06_layoutparameter.SetParameter" />
         <!-- c06 레이아웃 관리 end -->
+
+
         <!-- apc c07 출력  start -->
-        <activity android:name=".book.apc.c07_output.CustomView"/>
-        <activity android:name=".book.apc.c07_output.Primitive1"/>
-        <activity android:name=".book.apc.c07_output.Primitive2"/>
-        <activity android:name=".book.apc.c07_output.AntiAlias"/>
-        <activity android:name=".book.apc.c07_output.Stroke"/>
-        <activity android:name=".book.apc.c07_output.PaintStyle"/>
-        <activity android:name=".book.apc.c07_output.NewPaint"/>
-        <activity android:name=".book.apc.c07_output.PrePaint"/>
-        <activity android:name=".book.apc.c07_output.DrawBitmap"/>
-        <activity android:name=".book.apc.c07_output.OffScreen"/>
-        <activity android:name=".book.apc.c07_output.DrawText"/>
-        <activity android:name=".book.apc.c07_output.TypeFace"/>
-        <activity android:name=".book.apc.c07_output.DrawPath"/>
+        <activity android:name=".book.apc.c07_output.CustomView" />
+        <activity android:name=".book.apc.c07_output.Primitive1" />
+        <activity android:name=".book.apc.c07_output.Primitive2" />
+        <activity android:name=".book.apc.c07_output.AntiAlias" />
+        <activity android:name=".book.apc.c07_output.Stroke" />
+        <activity android:name=".book.apc.c07_output.PaintStyle" />
+        <activity android:name=".book.apc.c07_output.NewPaint" />
+        <activity android:name=".book.apc.c07_output.PrePaint" />
+        <activity android:name=".book.apc.c07_output.DrawBitmap" />
+        <activity android:name=".book.apc.c07_output.OffScreen" />
+        <activity android:name=".book.apc.c07_output.DrawText" />
+        <activity android:name=".book.apc.c07_output.TypeFace" />
+        <activity android:name=".book.apc.c07_output.DrawPath" />
+        <activity android:name=".book.apc.c07_output.CustomFont" />
 
         <!-- apc c07 출력  end -->
 
-
+        <activity android:name=".book.apc.c07_output.Shape" />
+        <activity android:name=".book.apc.c07_output.ToastTest"></activity>
     </application>
 
 </manifest>
