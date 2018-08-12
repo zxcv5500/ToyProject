@@ -1,84 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zxcv5500.toyproject">
+	package="com.zxcv5500.toyproject">
 
-    <!-- 카메라 권한 세팅 -->
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
+	<!-- 카메라 권한 세팅 -->
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.CAMERA" />
 
-    <!-- 저장소 읽고 쓰기 권한 -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- 저장소 읽고 쓰기 권한 -->
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".book.apc.AndExam" />
-        <activity android:name=".book.apc.AndExamSetting" />
-        <activity
-            android:name=".book.apc.c33_multimedia.CameraTest"
-            android:label="CameraTest"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".book.apc.c33_multimedia.AttachImage"
-            android:label="AttachImage"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".book.apc.c33_multimedia.SHCamera"
-            android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.c21_actionbar.ActionBarTest" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".book.apc.AndExam" />
+		<activity android:name=".book.apc.AndExamSetting" />
+		<activity
+			android:name=".book.apc.c33_multimedia.CameraTest"
+			android:label="CameraTest"
+			android:screenOrientation="landscape" />
+		<activity
+			android:name=".book.apc.c33_multimedia.AttachImage"
+			android:label="AttachImage"
+			android:screenOrientation="landscape" />
+		<activity
+			android:name=".book.apc.c33_multimedia.SHCamera"
+			android:screenOrientation="landscape" />
+		<activity android:name=".book.apc.c21_actionbar.ActionBarTest" />
 
-        <!-- 강쌤 책 액티비티들 -->
-        <activity android:name=".book.ka.ch28.Lab28_2Activity" />
+		<!-- 강쌤 책 액티비티들 -->
+		<activity android:name=".book.ka.ch28.Lab28_2Activity" />
 
-        <!-- c06 레이아웃 관리 start -->
-        <activity android:name=".book.apc.c06_layoutparameter.Inflation" />
-        <activity android:name=".book.apc.c06_layoutparameter.Inflation2" />
-        <activity android:name=".book.apc.c06_layoutparameter.Inflation3" />
-        <activity android:name=".book.apc.c06_layoutparameter.Inflation4" />
-        <activity android:name=".book.apc.c06_layoutparameter.Inflation5" />
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter" />
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2" />
-        <activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3" />
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter" />
-        <activity android:name=".book.apc.c06_layoutparameter.MarginParameter2" />
-        <activity android:name=".book.apc.c06_layoutparameter.SetParameter" />
-        <!-- c06 레이아웃 관리 end -->
+		<!-- c06 레이아웃 관리 start -->
+		<activity android:name=".book.apc.c06_layoutparameter.Inflation" />
+		<activity android:name=".book.apc.c06_layoutparameter.Inflation2" />
+		<activity android:name=".book.apc.c06_layoutparameter.Inflation3" />
+		<activity android:name=".book.apc.c06_layoutparameter.Inflation4" />
+		<activity android:name=".book.apc.c06_layoutparameter.Inflation5" />
+		<activity android:name=".book.apc.c06_layoutparameter.LayoutParameter" />
+		<activity android:name=".book.apc.c06_layoutparameter.LayoutParameter2" />
+		<activity android:name=".book.apc.c06_layoutparameter.LayoutParameter3" />
+		<activity android:name=".book.apc.c06_layoutparameter.MarginParameter" />
+		<activity android:name=".book.apc.c06_layoutparameter.MarginParameter2" />
+		<activity android:name=".book.apc.c06_layoutparameter.SetParameter" />
+		<!-- c06 레이아웃 관리 end -->
 
 
-        <!-- apc c07 출력  start -->
-        <activity android:name=".book.apc.c07_output.CustomView" />
-        <activity android:name=".book.apc.c07_output.Primitive1" />
-        <activity android:name=".book.apc.c07_output.Primitive2" />
-        <activity android:name=".book.apc.c07_output.AntiAlias" />
-        <activity android:name=".book.apc.c07_output.Stroke" />
-        <activity android:name=".book.apc.c07_output.PaintStyle" />
-        <activity android:name=".book.apc.c07_output.NewPaint" />
-        <activity android:name=".book.apc.c07_output.PrePaint" />
-        <activity android:name=".book.apc.c07_output.DrawBitmap" />
-        <activity android:name=".book.apc.c07_output.OffScreen" />
-        <activity android:name=".book.apc.c07_output.DrawText" />
-        <activity android:name=".book.apc.c07_output.TypeFace" />
-        <activity android:name=".book.apc.c07_output.DrawPath" />
-        <activity android:name=".book.apc.c07_output.CustomFont" />
+		<!-- apc c07 출력  start -->
+		<activity android:name=".book.apc.c07_output.CustomView" />
+		<activity android:name=".book.apc.c07_output.Primitive1" />
+		<activity android:name=".book.apc.c07_output.Primitive2" />
+		<activity android:name=".book.apc.c07_output.AntiAlias" />
+		<activity android:name=".book.apc.c07_output.Stroke" />
+		<activity android:name=".book.apc.c07_output.PaintStyle" />
+		<activity android:name=".book.apc.c07_output.NewPaint" />
+		<activity android:name=".book.apc.c07_output.PrePaint" />
+		<activity android:name=".book.apc.c07_output.DrawBitmap" />
+		<activity android:name=".book.apc.c07_output.OffScreen" />
+		<activity android:name=".book.apc.c07_output.DrawText" />
+		<activity android:name=".book.apc.c07_output.TypeFace" />
+		<activity android:name=".book.apc.c07_output.DrawPath" />
+		<activity android:name=".book.apc.c07_output.CustomFont" />
 
-        <!-- apc c07 출력  end -->
+		<!-- apc c07 출력  end -->
 
-        <activity android:name=".book.apc.c07_output.Shape" />
-        <activity android:name=".book.apc.c07_output.ToastTest"></activity>
-    </application>
+		<activity android:name=".book.apc.c07_output.Shape" />
+		<activity android:name=".book.apc.c07_output.ToastTest" />
+		<activity android:name=".book.apc.c07_output.Beep" />
+		<activity android:name=".book.apc.c07_output.Vibrate"></activity>
+	</application>
 
 </manifest>

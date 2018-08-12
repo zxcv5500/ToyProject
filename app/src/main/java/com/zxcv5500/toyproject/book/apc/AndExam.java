@@ -37,6 +37,7 @@ import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.MarginParameter;
 import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.MarginParameter2;
 import com.zxcv5500.toyproject.book.apc.c06_layoutparameter.SetParameter;
 import com.zxcv5500.toyproject.book.apc.c07_output.AntiAlias;
+import com.zxcv5500.toyproject.book.apc.c07_output.Beep;
 import com.zxcv5500.toyproject.book.apc.c07_output.CustomFont;
 import com.zxcv5500.toyproject.book.apc.c07_output.CustomView;
 import com.zxcv5500.toyproject.book.apc.c07_output.DrawBitmap;
@@ -52,6 +53,7 @@ import com.zxcv5500.toyproject.book.apc.c07_output.Shape;
 import com.zxcv5500.toyproject.book.apc.c07_output.Stroke;
 import com.zxcv5500.toyproject.book.apc.c07_output.ToastTest;
 import com.zxcv5500.toyproject.book.apc.c07_output.TypeFace;
+import com.zxcv5500.toyproject.book.apc.c07_output.Vibrate;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
@@ -130,8 +132,8 @@ public class AndExam extends Activity {
 //                arExample.add(new Example(MirrorImage.class, "조합 셰이더를 이용한 반사 이미지"));
                 arExample.add(new Example(Shape.class, "셰이프 드로블 출력"));
                 arExample.add(new Example(ToastTest.class, "토스트 출력"));
-//                arExample.add(new Example(Beep.class, "간단한 비프음"));
-//                arExample.add(new Example(Vibrate.class, "폰 진동시키기"));
+                arExample.add(new Example(Beep.class, "간단한 비프음"));
+                arExample.add(new Example(Vibrate.class, "폰 진동시키기"));
 //                arExample.add(new Example(PermModel.class, "퍼미션 모델 테스트 예제. 별도 제공되는 예제 참조"));
                 break;
             case 8: // 입력
