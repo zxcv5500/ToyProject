@@ -70,6 +70,7 @@ import com.zxcv5500.toyproject.book.apc.c16_dialog.SelectDialog2;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.SelectDialog3;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.ShowDialog;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.TouchOutside;
+import com.zxcv5500.toyproject.book.apc.c20_fragment.DialogFragmentTest;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
@@ -194,6 +195,21 @@ public class AndExam extends Activity {
             case 19: // 쓰레드
                 break;
             case 20: // 프래그먼트
+//                arExample.add(new Example(FragmentTest.class, "프래그먼트"));
+//                arExample.add(new Example(ReuseFragment.class, "프래그먼트 재사용"));
+//                arExample.add(new Example(TwoFragment1.class, "두 개의 프래그먼트 배치(정상 동작)"));
+//                arExample.add(new Example(TwoFragment2.class, "두 개의 프래그먼트 배치(왼쪽만 동작)"));
+//                arExample.add(new Example(SaveFragmentState.class, "프래그먼트 상태의 저장 및 복구"));
+//                arExample.add(new Example(FragmentManagerTest.class, "프래그먼트 관리자"));
+//                arExample.add(new Example(FragmentArgument.class, "프로그래먼트로 인수 전달"));
+//                arExample.add(new Example(BackStack.class, "프로그먼트의 백스택"));
+//                arExample.add(new Example(ListFragmentTest.class, "프래그먼트를 이용한 단어 목록"));
+//                arExample.add(new Example(WordList.class, "단어의 뜻을 보여 주는 단어장"));
+                arExample.add(new Example(DialogFragmentTest.class, "프래그먼트 대화상자"));
+//                arExample.add(new Example(DialogFragmentEmbed.class, "액티비티에 프래그먼트 대화상자 내장하기"));
+//                arExample.add(new Example(DialogStyleTheme.class, "프래그먼트 대화상자의 스타일과 테마"));
+//                arExample.add(new Example(MultiPaneWidth.class, "크기에 따른 2단 배치"));
+//                arExample.add(new Example(MultiPaneOrient.class, "방향에 따른 2단 배치"));
                 break;
             case 21: // 액션바
                 arExample.add(new Example(ActionBarTest.class, "액션 바 테스트"));

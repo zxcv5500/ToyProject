@@ -83,7 +83,7 @@
 		<!-- apc c07 출력  end -->
 
 
-		<!-- apc c016 대화상자 start -->
+		<!-- apc c16 대화상자 start -->
 		<activity android:name=".book.apc.c16_dialog.DialogTest" />
 		<activity android:name=".book.apc.c16_dialog.AlertDialogTest" />
 		<activity android:name=".book.apc.c16_dialog.DialogButton" />
@@ -101,7 +101,11 @@
 		<activity android:name=".book.apc.c16_dialog.SelectDialog3"/>
 		<activity android:name=".book.apc.c16_dialog.OrderDialog"/>
 
-		<!-- apc c016 대화상자 start -->
+		<!-- apc c16 대화상자 end -->
+
+		<!-- apc c20 프래그먼트 start -->
+		<activity android:name=".book.apc.c20_fragment.DialogFragmentTest"/>
+
 
 	</application>
 
