@@ -82,11 +82,26 @@
 
 		<!-- apc c07 출력  end -->
 
-		<!-- apc c016 대화상자 start -->
-		<activity android:name=".book.apc.c16_dialog.DialogTest"/>
-		<activity android:name=".book.apc.c16_dialog.AlertDialogTest"/>
 
 		<!-- apc c016 대화상자 start -->
+		<activity android:name=".book.apc.c16_dialog.DialogTest" />
+		<activity android:name=".book.apc.c16_dialog.AlertDialogTest" />
+		<activity android:name=".book.apc.c16_dialog.DialogButton" />
+		<activity android:name=".book.apc.c16_dialog.OkCancel" />
+		<activity android:name=".book.apc.c16_dialog.Cancelable" />
+		<activity android:name=".book.apc.c16_dialog.TouchOutside" />
+		<activity android:name=".book.apc.c16_dialog.ShowDialog"/>
+		<activity android:name=".book.apc.c16_dialog.ErrorMessage1"/>
+		<activity android:name=".book.apc.c16_dialog.ErrorMessage2"/>
+		<activity android:name=".book.apc.c16_dialog.Question1"/>
+		<activity android:name=".book.apc.c16_dialog.Question2"/>
+		<activity android:name=".book.apc.c16_dialog.Question3"/>
+		<activity android:name=".book.apc.c16_dialog.SelectDialog1"/>
+		<activity android:name=".book.apc.c16_dialog.SelectDialog2"/>
+		<activity android:name=".book.apc.c16_dialog.SelectDialog3"/>
+
+		<!-- apc c016 대화상자 start -->
+
 	</application>
 
 </manifest>
