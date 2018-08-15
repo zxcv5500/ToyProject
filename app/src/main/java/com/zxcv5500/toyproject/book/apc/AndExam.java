@@ -54,6 +54,8 @@ import com.zxcv5500.toyproject.book.apc.c07_output.Stroke;
 import com.zxcv5500.toyproject.book.apc.c07_output.ToastTest;
 import com.zxcv5500.toyproject.book.apc.c07_output.TypeFace;
 import com.zxcv5500.toyproject.book.apc.c07_output.Vibrate;
+import com.zxcv5500.toyproject.book.apc.c16_dialog.AlertDialogTest;
+import com.zxcv5500.toyproject.book.apc.c16_dialog.DialogTest;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
@@ -153,6 +155,23 @@ public class AndExam extends Activity {
             case 15: // 리소스 관리
                 break;
             case 16: // 대화상자
+                arExample.add(new Example(DialogTest.class, "Dialog 클래스를 이용한 대화상자"));
+                arExample.add(new Example(AlertDialogTest.class, "AlertDialog 대화상자"));
+//                arExample.add(new Example(DialogButton.class, "대화상자에 닫기 버튼 배치"));
+//                arExample.add(new Example(OkCancel.class, "확인, 취소 2개의 버튼 배치"));
+//                arExample.add(new Example(Cancelable.class, "Back 버튼 금지. 버튼을 눌러야 닫힘"));
+//                arExample.add(new Example(TouchOutside.class, "대화상자 바깥을 눌러서 닫기"));
+//                arExample.add(new Example(ShowDialog.class, "대화상자 미리 생성해 놓기"));
+//                arExample.add(new Example(ErrorMessage1.class, "에러 메시지 출력-안보임"));
+//                arExample.add(new Example(ErrorMessage2.class, "에러 메시지 출력-보임"));
+//                arExample.add(new Example(Question1.class, "질문하기의 잘못된 예"));
+//                arExample.add(new Example(Question2.class, "질문후 응답 결과에 따라 연산하기"));
+//                arExample.add(new Example(Question3.class, "3단계 질문 통합하기"));
+//                arExample.add(new Example(SelectDialog1.class, "목록 선택. 항목 클릭 즉시 닫힘"));
+//                arExample.add(new Example(SelectDialog2.class, "단일 선택. 항목 선택 후 확인 버튼"));
+//                arExample.add(new Example(SelectDialog3.class, "복수 선택. 여러 항목 선택 후 확인 버튼"));
+//                arExample.add(new Example(OrderDialog.class, "상품 주문 커스텀 대화상자"));
+//                arExample.add(new Example(Popup.class, "팝업 윈도우 열기"));
                 break;
             case 17: // 액티비티
                 break;

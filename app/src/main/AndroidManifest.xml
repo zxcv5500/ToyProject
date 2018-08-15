@@ -75,13 +75,18 @@
 		<activity android:name=".book.apc.c07_output.TypeFace" />
 		<activity android:name=".book.apc.c07_output.DrawPath" />
 		<activity android:name=".book.apc.c07_output.CustomFont" />
-
-		<!-- apc c07 출력  end -->
-
 		<activity android:name=".book.apc.c07_output.Shape" />
 		<activity android:name=".book.apc.c07_output.ToastTest" />
 		<activity android:name=".book.apc.c07_output.Beep" />
-		<activity android:name=".book.apc.c07_output.Vibrate"></activity>
+		<activity android:name=".book.apc.c07_output.Vibrate" />
+
+		<!-- apc c07 출력  end -->
+
+		<!-- apc c016 대화상자 start -->
+		<activity android:name=".book.apc.c16_dialog.DialogTest"/>
+		<activity android:name=".book.apc.c16_dialog.AlertDialogTest"/>
+
+		<!-- apc c016 대화상자 start -->
 	</application>
 
 </manifest>
