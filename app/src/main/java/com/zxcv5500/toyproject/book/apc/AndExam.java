@@ -62,6 +62,7 @@ import com.zxcv5500.toyproject.book.apc.c16_dialog.ErrorMessage1;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.ErrorMessage2;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.OkCancel;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.OrderDialog;
+import com.zxcv5500.toyproject.book.apc.c16_dialog.Popup;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.Question1;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.Question2;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.Question3;
@@ -186,7 +187,7 @@ public class AndExam extends Activity {
                 arExample.add(new Example(SelectDialog2.class, "단일 선택. 항목 선택 후 확인 버튼"));
                 arExample.add(new Example(SelectDialog3.class, "복수 선택. 여러 항목 선택 후 확인 버튼"));
                 arExample.add(new Example(OrderDialog.class, "상품 주문 커스텀 대화상자"));
-//                arExample.add(new Example(Popup.class, "팝업 윈도우 열기"));
+                arExample.add(new Example(Popup.class, "팝업 윈도우 열기"));
                 break;
             case 17: // 액티비티
                 break;
