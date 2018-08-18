@@ -54,6 +54,7 @@ import com.zxcv5500.toyproject.book.apc.c07_output.Stroke;
 import com.zxcv5500.toyproject.book.apc.c07_output.ToastTest;
 import com.zxcv5500.toyproject.book.apc.c07_output.TypeFace;
 import com.zxcv5500.toyproject.book.apc.c07_output.Vibrate;
+import com.zxcv5500.toyproject.book.apc.c15_resource.DisplayMetricsTest;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.AlertDialogTest;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.Cancelable;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.DialogButton;
@@ -169,6 +170,19 @@ public class AndExam extends Activity {
             case 14: // 커스텀 위젯
                 break;
             case 15: // 리소스 관리
+//                arExample.add(new Example(LandPort.class, "화면 방향별 레이아웃 정의"));
+//                arExample.add(new Example(MultiLang.class, "한글, 영어 다국어 지원"));
+                arExample.add(new Example(DisplayMetricsTest.class, "디스플레이 정보 조사"));
+//                arExample.add(new Example(LogicUnit.class, "논리 단위를 사용해야 하는 이유 연구"));
+//                arExample.add(new Example(ConvertDpi.class, "DPI 변환 유틸리티"));
+//                arExample.add(new Example(ResDensity.class, "밀도별 리소스의 프리 스케일링"));
+//                arExample.add(new Example(SameSize.class, "밀도에 무관하게 같은 크기로 이미지 출력"));
+//                arExample.add(new Example(FillWidth.class, "레이아웃 폭 가득 채우기"));
+//                arExample.add(new Example(DrawUnit.class, "실행중에 논리 단위를 픽셀로 변환하기"));
+//                arExample.add(new Example(RulerTest.class, "밀리, 인치 단위의 자"));
+//                arExample.add(new Example(ScreenSize.class, "화면 크기에 따른 레이아웃 정의"));
+//                arExample.add(new Example(SmallestWidth.class, "짧은폭에 대한 리소스 선택 연구"));
+//                arExample.add(new Example(SwLayout.class, "짧은폭 기준 레이아웃"));
                 break;
             case 16: // 대화상자
                 arExample.add(new Example(DialogTest.class, "Dialog 클래스를 이용한 대화상자"));

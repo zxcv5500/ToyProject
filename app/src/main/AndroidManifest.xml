@@ -82,6 +82,8 @@
 
 		<!-- apc c07 출력  end -->
 
+		<!-- apc c15 리소스 관리 start -->
+		<activity android:name=".book.apc.c15_resource.DisplayMetricsTest" />
 
 		<!-- apc c16 대화상자 start -->
 		<activity android:name=".book.apc.c16_dialog.DialogTest" />
@@ -90,24 +92,24 @@
 		<activity android:name=".book.apc.c16_dialog.OkCancel" />
 		<activity android:name=".book.apc.c16_dialog.Cancelable" />
 		<activity android:name=".book.apc.c16_dialog.TouchOutside" />
-		<activity android:name=".book.apc.c16_dialog.ShowDialog"/>
-		<activity android:name=".book.apc.c16_dialog.ErrorMessage1"/>
-		<activity android:name=".book.apc.c16_dialog.ErrorMessage2"/>
-		<activity android:name=".book.apc.c16_dialog.Question1"/>
-		<activity android:name=".book.apc.c16_dialog.Question2"/>
-		<activity android:name=".book.apc.c16_dialog.Question3"/>
-		<activity android:name=".book.apc.c16_dialog.SelectDialog1"/>
-		<activity android:name=".book.apc.c16_dialog.SelectDialog2"/>
-		<activity android:name=".book.apc.c16_dialog.SelectDialog3"/>
-		<activity android:name=".book.apc.c16_dialog.OrderDialog"/>
-		<activity android:name=".book.apc.c16_dialog.Popup"/>
+		<activity android:name=".book.apc.c16_dialog.ShowDialog" />
+		<activity android:name=".book.apc.c16_dialog.ErrorMessage1" />
+		<activity android:name=".book.apc.c16_dialog.ErrorMessage2" />
+		<activity android:name=".book.apc.c16_dialog.Question1" />
+		<activity android:name=".book.apc.c16_dialog.Question2" />
+		<activity android:name=".book.apc.c16_dialog.Question3" />
+		<activity android:name=".book.apc.c16_dialog.SelectDialog1" />
+		<activity android:name=".book.apc.c16_dialog.SelectDialog2" />
+		<activity android:name=".book.apc.c16_dialog.SelectDialog3" />
+		<activity android:name=".book.apc.c16_dialog.OrderDialog" />
+		<activity android:name=".book.apc.c16_dialog.Popup" />
 
 		<!-- apc c16 대화상자 end -->
 
+
 		<!-- apc c20 프래그먼트 start -->
-		<activity android:name=".book.apc.c20_fragment.DialogFragmentTest"/>
-
-
+		<activity android:name=".book.apc.c20_fragment.DialogFragmentTest" />
+		<activity android:name=".book.apc.c15_resource.DisplayMetricsTest"></activity>
 	</application>
 
 </manifest>
