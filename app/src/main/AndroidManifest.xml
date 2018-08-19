@@ -57,8 +57,6 @@
 		<activity android:name=".book.apc.c06_layoutparameter.MarginParameter" />
 		<activity android:name=".book.apc.c06_layoutparameter.MarginParameter2" />
 		<activity android:name=".book.apc.c06_layoutparameter.SetParameter" />
-		<!-- c06 레이아웃 관리 end -->
-
 
 		<!-- apc c07 출력  start -->
 		<activity android:name=".book.apc.c07_output.CustomView" />
@@ -80,7 +78,25 @@
 		<activity android:name=".book.apc.c07_output.Beep" />
 		<activity android:name=".book.apc.c07_output.Vibrate" />
 
-		<!-- apc c07 출력  end -->
+		<!-- apc c12 어댑터 뷰 -->
+		<activity android:name=".book.apc.c12_adapterview.ListViewTest" android:label="ListViewTest" />
+		<activity android:name=".book.apc.c12_adapterview.ListFromArray" android:label="ListFromArray" />
+		<activity android:name=".book.apc.c12_adapterview.ListAttr" android:label="ListAttr" />
+		<activity android:name=".book.apc.c12_adapterview.ListItemSelect" android:label="ListItemSelect" />
+		<activity android:name=".book.apc.c12_adapterview.ListAddDel" android:label="ListAddDel" />
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti" android:label="ListAddDelMulti" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti2" android:label="ListAddDelMulti2" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti3" android:label="ListAddDelMulti3" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListIconText" android:label="ListIconText" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListOfViews" android:label="ListOfViews" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ManyItem" android:label="ManyItem" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.Expandable" android:label="Expandable" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.ListOnly" android:label="ListOnly" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.OverScroll" android:label="OverScroll" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.SpinnerTest" android:label="SpinnerTest" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.GridViewTest" android:label="GridViewTest" /> -->
+		<!-- <activity android:name=".book.apc.c12_adapterview.GalleryTest" android:label="GalleryTest" /> -->
+
 
 		<!-- apc c15 리소스 관리 start -->
 		<activity android:name=".book.apc.c15_resource.DisplayMetricsTest" />
@@ -104,12 +120,9 @@
 		<activity android:name=".book.apc.c16_dialog.OrderDialog" />
 		<activity android:name=".book.apc.c16_dialog.Popup" />
 
-		<!-- apc c16 대화상자 end -->
-
 
 		<!-- apc c20 프래그먼트 start -->
 		<activity android:name=".book.apc.c20_fragment.DialogFragmentTest" />
-		<activity android:name=".book.apc.c15_resource.DisplayMetricsTest"></activity>
 	</application>
 
 </manifest>

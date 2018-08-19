@@ -54,6 +54,11 @@ import com.zxcv5500.toyproject.book.apc.c07_output.Stroke;
 import com.zxcv5500.toyproject.book.apc.c07_output.ToastTest;
 import com.zxcv5500.toyproject.book.apc.c07_output.TypeFace;
 import com.zxcv5500.toyproject.book.apc.c07_output.Vibrate;
+import com.zxcv5500.toyproject.book.apc.c12_adapterview.ListAddDel;
+import com.zxcv5500.toyproject.book.apc.c12_adapterview.ListAttr;
+import com.zxcv5500.toyproject.book.apc.c12_adapterview.ListFromArray;
+import com.zxcv5500.toyproject.book.apc.c12_adapterview.ListItemSelect;
+import com.zxcv5500.toyproject.book.apc.c12_adapterview.ListViewTest;
 import com.zxcv5500.toyproject.book.apc.c15_resource.DisplayMetricsTest;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.AlertDialogTest;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.Cancelable;
@@ -164,6 +169,23 @@ public class AndExam extends Activity {
             case 11: // 기본 위젯
                 break;
             case 12: // 어댑터뷰
+                arExample.add(new Example(ListViewTest.class, "리스트뷰에 문자열 항목 표시"));
+                arExample.add(new Example(ListFromArray.class, "리스트뷰에 XML 배열 표시"));
+                arExample.add(new Example(ListAttr.class, "리스트뷰의 구분선 속성"));
+                arExample.add(new Example(ListItemSelect.class, "리스트뷰의 항목 선택"));
+                arExample.add(new Example(ListAddDel.class, "실행중에 항목 삽입 및 삭제"));
+//                arExample.add(new Example(ListAddDelMulti.class, "여러 개의 항목 한꺼번에 삭제하기"));
+//                arExample.add(new Example(ListAddDelMulti2.class, "라디오 버튼으로 여러 항목 삭제"));
+//                arExample.add(new Example(ListAddDelMulti3.class, "체크 박스로 여러 항목 삭제"));
+//                arExample.add(new Example(ListIconText.class, "아이콘과 텍스트로 항목 뷰 구성하기"));
+//                arExample.add(new Example(ListOfViews.class, "여러 종류의 항목 뷰 섞어서 표시"));
+//                arExample.add(new Example(ManyItem.class, "대용량 항목 뷰 표시와 리스트 뷰의 동작 연구"));
+//                arExample.add(new Example(Expandable.class, "2단계의 확장 리스트 뷰"));
+//                arExample.add(new Example(ListOnly.class, "ListActivity 사용"));
+//                arExample.add(new Example(OverScroll.class, "리스트뷰의 오버 스크롤 "));
+//                arExample.add(new Example(SpinnerTest.class, "스피너로 과일 이름 선택하기"));
+//                arExample.add(new Example(GridViewTest.class, "그리드뷰로 이미지 선택하기"));
+//                arExample.add(new Example(GalleryTest.class, "갤러리로 이미지 선택하기"));
                 break;
             case 13: // 고급 위젯
                 break;
