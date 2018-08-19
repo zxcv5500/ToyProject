@@ -86,14 +86,21 @@ class MultiAdapter extends BaseAdapter {
 		return position;
 	}
 
+//	public int getItemViewType(int position) {
+//	    return arSrc.get(position).type;
+//	}
+
+
+	@Override
 	public int getItemViewType(int position) {
-	    return arSrc.get(position).type;
+		return arSrc.get(position).type;
 	}
 
 	// getView가 생성하는 뷰의 개수를 리턴한다. 항상 같은 뷰를 생성하면 1을 리턴한다.
 	// 이 메서드에서 개수를 제대로 조사해 주지 않으면 다운된다.
+	@Override
 	public int getViewTypeCount() {
-	    return 2;
+		return 2;
 	}
 
 	@Override
@@ -110,7 +117,7 @@ class MultiAdapter extends BaseAdapter {
 					res = R.layout.btnicon;
 					break;
 			}
-			convertView = mInflater.inflate(res, parent, false);
+			convertView = mInflater.inflate(res, parent, false);        // type에 따라 inflate할 layout리소스를 바꿔준다.
 		}
 
 		// 항목 뷰를 초기화 한다.
