@@ -84,11 +84,11 @@
 		<activity android:name=".book.apc.c12_adapterview.ListAttr" android:label="ListAttr" />
 		<activity android:name=".book.apc.c12_adapterview.ListItemSelect" android:label="ListItemSelect" />
 		<activity android:name=".book.apc.c12_adapterview.ListAddDel" android:label="ListAddDel" />
-		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti" android:label="ListAddDelMulti" /> -->
-		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti2" android:label="ListAddDelMulti2" /> -->
-		<!-- <activity android:name=".book.apc.c12_adapterview.ListAddDelMulti3" android:label="ListAddDelMulti3" /> -->
-		<!-- <activity android:name=".book.apc.c12_adapterview.ListIconText" android:label="ListIconText" /> -->
-		<!-- <activity android:name=".book.apc.c12_adapterview.ListOfViews" android:label="ListOfViews" /> -->
+		<activity android:name=".book.apc.c12_adapterview.ListAddDelMulti" android:label="ListAddDelMulti" />
+		<activity android:name=".book.apc.c12_adapterview.ListAddDelMulti2" android:label="ListAddDelMulti2" />
+		<activity android:name=".book.apc.c12_adapterview.ListAddDelMulti3" android:label="ListAddDelMulti3" />
+		<activity android:name=".book.apc.c12_adapterview.ListIconText" android:label="ListIconText" />
+		<activity android:name=".book.apc.c12_adapterview.ListOfViews" android:label="ListOfViews" />
 		<!-- <activity android:name=".book.apc.c12_adapterview.ManyItem" android:label="ManyItem" /> -->
 		<!-- <activity android:name=".book.apc.c12_adapterview.Expandable" android:label="Expandable" /> -->
 		<!-- <activity android:name=".book.apc.c12_adapterview.ListOnly" android:label="ListOnly" /> -->
