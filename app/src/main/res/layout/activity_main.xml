@@ -9,7 +9,7 @@
         android:id="@+id/bookAPC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="안드로이드 프로그래밍 정복 예제보기"
+        android:text="안드로이드 프로그래밍 정복 예제"
         />
 
 
@@ -17,6 +17,6 @@
         android:id="@+id/bookKA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="카메라v2실행"
+        android:text="깡샘의 안드로이드 예제"
         />
 </LinearLayout>

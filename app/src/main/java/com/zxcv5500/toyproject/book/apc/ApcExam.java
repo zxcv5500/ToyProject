@@ -92,7 +92,7 @@ import com.zxcv5500.toyproject.book.apc.c33_multimedia.SHCamera;
 
 import java.util.ArrayList;
 
-public class AndExam extends Activity {
+public class ApcExam extends Activity {
 
     static final int SETTING_ACTIVITY = 1;
     // 예제가 있는 시작 챕터. 스피너의 첨자에 이 값을 더해야 장 번호가 된다.
@@ -364,7 +364,7 @@ public class AndExam extends Activity {
                 // 이후부터는 사용자가 선택한 장을 로드한다.
                 if (mInitSelection) {
                     mInitSelection = false;
-                    SharedPreferences pref = getSharedPreferences("AndExam", 0);
+                    SharedPreferences pref = getSharedPreferences("ApcExam", 0);
                     int lastchapter = pref.getInt("LastChapter", START_CHAPTER);
                     mSpinner.setSelection(lastchapter - START_CHAPTER);
                     changeChapter(lastchapter);
@@ -372,7 +372,7 @@ public class AndExam extends Activity {
                     // 장을 변경할 때마다 프레퍼런스에 기록한다.
                     int chapter = position + START_CHAPTER;
                     changeChapter(chapter);
-                    SharedPreferences pref = getSharedPreferences("AndExam", 0);
+                    SharedPreferences pref = getSharedPreferences("ApcExam", 0);
                     SharedPreferences.Editor edit = pref.edit();
                     edit.putInt("LastChapter", chapter);
                     edit.commit();
@@ -387,7 +387,7 @@ public class AndExam extends Activity {
     }
 
     public void readOption() {
-        SharedPreferences pref = getSharedPreferences("AndExam", 0);
+        SharedPreferences pref = getSharedPreferences("ApcExam", 0);
         mFontSize = pref.getInt("mFontSize", 1);
         mBackType = pref.getInt("mBackType", 0);
         mDescSide = pref.getBoolean("mDescSide", false);
@@ -412,7 +412,7 @@ public class AndExam extends Activity {
         final Context ctx = this;
         mExamList.setOnItemClickListener(new OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                SharedPreferences pref = getSharedPreferences("AndExam", 0);
+                SharedPreferences pref = getSharedPreferences("ApcExam", 0);
                 SharedPreferences.Editor edit = pref.edit();
                 edit.putInt("LastPosition", position);
                 edit.commit();
@@ -423,7 +423,7 @@ public class AndExam extends Activity {
     }
 
     public void mOnClick(View v) {
-        SharedPreferences pref = getSharedPreferences("AndExam", 0);
+        SharedPreferences pref = getSharedPreferences("ApcExam", 0);
         int lastchapter = pref.getInt("LastChapter", START_CHAPTER);
         switch (v.getId()) {
             case R.id.btnprev:
@@ -529,7 +529,7 @@ public class AndExam extends Activity {
                         .show();
                 return true;
             case 2:
-                startActivityForResult(new Intent(this, AndExamSetting.class), SETTING_ACTIVITY);
+                startActivityForResult(new Intent(this, ApcExamSetting.class), SETTING_ACTIVITY);
                 return true;
             case 3:
                 finish();
@@ -544,7 +544,7 @@ public class AndExam extends Activity {
             case SETTING_ACTIVITY:
                 if (resultCode != RESULT_OK) return;
                 readOption();
-                SharedPreferences pref = getSharedPreferences("AndExam", 0);
+                SharedPreferences pref = getSharedPreferences("ApcExam", 0);
                 int lastchapter = pref.getInt("LastChapter", START_CHAPTER);
                 changeChapter(lastchapter);
                 break;

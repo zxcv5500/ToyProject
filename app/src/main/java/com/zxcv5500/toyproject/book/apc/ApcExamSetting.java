@@ -10,7 +10,7 @@ import android.widget.RadioGroup;
 
 import com.zxcv5500.toyproject.R;
 
-public class AndExamSetting extends Activity {
+public class ApcExamSetting extends Activity {
     RadioGroup FontSize;
     RadioGroup BackType;
     CheckBox DescSide;
@@ -26,7 +26,7 @@ public class AndExamSetting extends Activity {
         BackType = (RadioGroup)findViewById(R.id.opt_backtype);
         DescSide = (CheckBox)findViewById(R.id.opt_descside);
 
-        SharedPreferences pref = getSharedPreferences("AndExam", 0);
+        SharedPreferences pref = getSharedPreferences("ApcExam", 0);
         int mFontSize = pref.getInt("mFontSize", 1);
         int mBackType = pref.getInt("mBackType", 0);
         boolean mDescSide = pref.getBoolean("mDescSide", false);
@@ -84,7 +84,7 @@ public class AndExamSetting extends Activity {
 
                     boolean mDescSide = DescSide.isChecked();
 
-                    SharedPreferences pref = getSharedPreferences("AndExam", 0);
+                    SharedPreferences pref = getSharedPreferences("ApcExam", 0);
                     SharedPreferences.Editor editor = pref.edit();
                     editor.putInt("mFontSize", mFontSize);
                     editor.putInt("mBackType", mBackType);
