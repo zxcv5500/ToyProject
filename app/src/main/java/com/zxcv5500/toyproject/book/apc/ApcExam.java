@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -86,13 +87,14 @@ import com.zxcv5500.toyproject.book.apc.c16_dialog.ShowDialog;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.TouchOutside;
 import com.zxcv5500.toyproject.book.apc.c20_fragment.DialogFragmentTest;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
+import com.zxcv5500.toyproject.book.apc.c21_actionbar.NoActionBar;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.AttachImage;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.CameraTest;
 import com.zxcv5500.toyproject.book.apc.c33_multimedia.SHCamera;
 
 import java.util.ArrayList;
 
-public class ApcExam extends Activity {
+public class ApcExam extends AppCompatActivity {
 
     static final int SETTING_ACTIVITY = 1;
     // 예제가 있는 시작 챕터. 스피너의 첨자에 이 값을 더해야 장 번호가 된다.
@@ -257,6 +259,18 @@ public class ApcExam extends Activity {
                 break;
             case 21: // 액션바
                 arExample.add(new Example(ActionBarTest.class, "액션 바 테스트"));
+                arExample.add(new Example(NoActionBar.class, "액션바 숨기기"));
+//                arExample.add(new Example(ShowHideActionBar.class, "액션바 보이기/숨기기"));
+//                arExample.add(new Example(OverlayActionBar.class, "액션바 오버레이"));
+//                arExample.add(new Example(SplitActionBar.class, "액션바 분리"));
+//                arExample.add(new Example(AppIcon.class, "액션바에 앱 아이콘 배치"));
+//                arExample.add(new Example(ActionView.class, "검색 액션 뷰"));
+//                arExample.add(new Example(ActionSwitch.class, "액션 뷰의 스위치 위젯"));
+//                arExample.add(new Example(ActionProviderTest.class, "액션 프로바이더로 숫자 증감"));
+//                arExample.add(new Example(ShareAction.class, "공유 액션 프로바이더"));
+//                arExample.add(new Example(ActionTab.class, "3개의 페이지로 구성된 액션 탭"));
+//                arExample.add(new Example(DisplayOption.class, "액션 바 출력 옵션"));
+//                arExample.add(new Example(ActionModeTest.class, "액션 바에 임시적으로 열리는 액션 모드"));
                 break;
             case 22: // 그리기
                 break;

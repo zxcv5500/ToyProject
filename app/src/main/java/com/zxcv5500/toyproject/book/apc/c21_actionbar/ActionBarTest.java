@@ -2,6 +2,7 @@ package com.zxcv5500.toyproject.book.apc.c21_actionbar;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.Window;
@@ -9,7 +10,7 @@ import android.widget.TextView;
 
 import com.zxcv5500.toyproject.R;
 
-public class ActionBarTest extends Activity {
+public class ActionBarTest extends AppCompatActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class ActionBarTest extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.actionbarmenu, menu);
 

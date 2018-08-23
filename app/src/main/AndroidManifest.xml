@@ -41,7 +41,7 @@
         <activity
             android:name=".book.apc.c33_multimedia.SHCamera"
             android:screenOrientation="landscape" />
-        <activity android:name=".book.apc.c21_actionbar.ActionBarTest" />
+
 
         <!-- 강쌤 책 액티비티들 -->
         <activity android:name=".book.ka.ch28.Lab28_2Activity" />
@@ -147,7 +147,13 @@
 
         <!-- apc c20 프래그먼트 start -->
         <activity android:name=".book.apc.c20_fragment.DialogFragmentTest" />
-        <activity android:name=".book.ka.KaExam"></activity>
+
+        <!-- apc c21 액션바 start -->
+        <activity android:name=".book.apc.c21_actionbar.ActionBarTest" android:label="ActionBarTest"/>
+        <activity android:name=".book.apc.c21_actionbar.NoActionBar" android:label="NoActionBar" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            <!--android:theme="@android:style/Theme.Holo.NoActionBar"-->
+
+
     </application>
 
 </manifest>
