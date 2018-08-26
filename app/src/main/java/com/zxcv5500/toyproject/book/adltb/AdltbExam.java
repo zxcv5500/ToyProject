@@ -1,4 +1,4 @@
-package com.zxcv5500.toyproject.book.ka;
+package com.zxcv5500.toyproject.book.adltb;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,14 +26,14 @@ import com.zxcv5500.toyproject.R;
 
 import java.util.ArrayList;
 
-public class KaExam extends Activity {
+public class AdltbExam extends Activity {
 
     static final int SETTING_ACTIVITY = 1;
     // 예제가 있는 시작 챕터. 스피너의 첨자에 이 값을 더해야 장 번호가 된다.
     static final int START_CHAPTER = 2;
 
-    class KaExample {
-        KaExample(Class<?> acls, String aDesc) {
+    class AdltbExample {
+        AdltbExample(Class<?> acls, String aDesc) {
             cls = acls;
             Name = cls.getSimpleName();
             Desc = aDesc;
@@ -43,125 +43,82 @@ public class KaExam extends Activity {
         String Desc;
     }
 
-    ArrayList<KaExample> arKaExample = new ArrayList<KaExample>();
+    ArrayList<AdltbExample> arKaExample = new ArrayList<AdltbExample>();
 
     // 요청한 장의 예제들을 배열에 채운다.
     void fillExample(int chapter) {
         arKaExample.clear();      // 채우기 전에 arrayList를 깨끗하게 청소한다.
 
         switch (chapter) {
-            case 2: // 안드로이드 프로젝트 이해
+            case 1:     // 안드로이드 스튜디오 기능
 
                 break;
-            case 3: // 사용자 인터페이스
+            case 2:     // 컴포넌트 복습 ①: 액티비티와 프래그먼트 기초
 
                 break;
-            case 4: // 레이아웃을 활용한 다양한 뷰 배치
+            case 3:     // Content Provider / Broadcastcast Receiver / Service
 
                 break;
-            case 5: // 다양한 사용자 알림 효과
-                break;
-            case 6: // 사용자 이벤트 처리
+            case 4:     // 지원라이브러리 / RecyclerView
 
                 break;
-            case 7: // 리소스 활용 및 스마트폰 크기 호환성
+            case 5:     // mvp / mvvm
 
                 break;
-            case 8: // DBMS을 이용한 데이터 영속화
-                break;
-            case 9: // 파일 및 SharedPreferences을 이용한 데이터 영속화
-                break;
-            case 10: // AdapterView 활용
-                break;
-            case 11: // 다양한 뷰 활용
-                break;
-            case 12: // ActionBar와 메뉴
+            case 6:     // gradle
 
                 break;
-            case 13: // 커스텀 뷰 개발
-                break;
-            case 14: // 인텐트와 구글 기본 앱 연동
-                break;
-            case 15: // 액티비티 생명주기 및 다양한 제어
-                break;
-            case 16: // 스레드와 핸들러
+            case 7:     // 테스트
 
                 break;
-            case 17: // Support 라이브러리 활용
+            case 8:     // UI 테스트
                 break;
-            case 18: // 머티리얼 디자인
+            case 9:     // CI
                 break;
-            case 19: // 브로드캐스트 리시버와 알림
+            case 10:    // 디자인
                 break;
-            case 20: // 서비스 컴포넌트
+            case 11:    // 머터리얼 디자인 이해
                 break;
-            case 21: // 콘텐츠 프로바이더
+            case 12:    // 머터리얼 디자인 구현
                 break;
-            case 22: // 위치 정보 획득
+            case 13:    // 안드로이드 보안 모델
                 break;
-            case 23: // 지도 출력
+            case 14:    // 병목 개선
                 break;
-            case 24: // 네트워크 정보 활용
+            case 15:    // 모네타이즈 실현(광고) 인앱결제
                 break;
-            case 25: // HTTP 통신
-                break;
-            case 26: // 실시간 서버 푸시
-                break;
-            case 27: // 스마트폰 기능 활용
-                break;
-            case 28: // 카메라 활용
-                break;
-            case 29: // 앱 위젯 개발
-                break;
-            case 30: // 멀티미디어 활용
-                break;
-            case 31: // 안드로이드 스튜디오에서 코틀린으로 개발하기
-                break;
-            case 32: // 코틀린 기초 작성법
-                break;
-            case 33: // 코틀린 OOP 프로그램
+            case 16:    // 지문 인증
 
                 break;
-            case 34: // 코틀린으로 만드는 안드로이드 앱
+            case 17:    // 앱의 장점을 전하자. 앱 공개
+                break;
+            case 18:    // 공개한 앱을 성장 시킨다. 그로스 핵
+                break;
+            case 19:    // 푸시 알림gcm
                 break;
         }
     }
 
     // 예제는 2장부터 제공된다. 2(START_CHAPTER)장이 첨자 0번이다.
-    String[] arKaChapter = {
-            "2장 안드로이드 프로젝트 이해",
-            "3장 사용자 인터페이스이스",
-            "4장 레이아웃을 활용한 다양한 뷰 배치",
-            "5장 다양한 사용자 알림 효과",
-            "6장 사용자 이벤트 처리",
-            "7장 리소스 활용 및 스마트폰 크기 호환성",
-            "8장 DBMS을 이용한 데이터 영속화",
-            "9장 파일 및 SharedPreferences을 이용한 데이터 영속화",
-            "10장 AdapterView 활용",
-            "11장 다양한 뷰 활용",
-            "12장 ActionBar와 메뉴",
-            "13장 커스텀 뷰 개발",
-            "14장 인텐트와 구글 기본 앱 연동",
-            "15장 액티비티 생명주기 및 다양한 제어",
-            "16장 스레드와 핸들러",
-            "17장 Support 라이브러리 활용",
-            "18장 머티리얼 디자인",
-            "19장 브로드캐스트 리시버와 알림",
-            "20장 서비스 컴포넌트",
-            "21장 콘텐츠 프로바이더",
-            "22장 위치 정보 획득",
-            "23장 지도 출력",
-            "24장 네트워크 정보 활용",
-            "25장 HTTP 통신",
-            "26장 실시간 서버 푸시",
-            "27장 스마트폰 기능 활용",
-            "28장 카메라 활용",
-            "29장 앱 위젯 개발",
-            "30장 멀티미디어 활용",
-            "31장 안드로이드 스튜디오에서 코틀린으로 개발하기",
-            "32장 코틀린 기초 작성법",
-            "33장 코틀린 OOP 프로그램",
-            "34장 코틀린으로 만드는 안드로이드 앱",
+    String[] arAdltbChapter = {
+            "2장 안드로이드 스튜디오 기능",
+            "3장 컴포넌트 복습 ①: 액티비티와 프래그먼트 기초",
+            "4장 Content Provider / Broadcastcast Receiver / Service",
+            "5장 지원라이브러리 / RecyclerView",
+            "6장 mvp / mvvm",
+            "7장 gradle",
+            "8장 테스트",
+            "9장 UI 테스트",
+            "10장 디자인",
+            "11장 머터리얼 디자인 이해",
+            "12장 머터리얼 디자인 구현",
+            "13장 안드로이드 보안 모델",
+            "14장 병목 개선",
+            "15장 모네타이즈 실현(광고) 인앱결제",
+            "16장 지문 인증",
+            "17장 앱의 장점을 전하자. 앱 공개",
+            "18장 공개한 앱을 성장 시킨다. 그로스 핵",
+            "19장 푸시 알림gcm",
     };
 
     ArrayAdapter<CharSequence> mAdapter;
@@ -182,7 +139,7 @@ public class KaExam extends Activity {
         mSpinner.setPrompt("장을 선택하세요.");
 
         mAdapter = new ArrayAdapter<CharSequence>(this,
-                android.R.layout.simple_spinner_item, arKaChapter);
+                android.R.layout.simple_spinner_item, arAdltbChapter);
         mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mSpinner.setAdapter(mAdapter);
 
@@ -192,17 +149,17 @@ public class KaExam extends Activity {
                 // 이후부터는 사용자가 선택한 장을 로드한다.
                 if (mInitSelection) {
                     mInitSelection = false;
-                    SharedPreferences pref = getSharedPreferences("KaExam", 0);
-                    int lastchapter = pref.getInt("LastKaChapter", START_CHAPTER);
+                    SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
+                    int lastchapter = pref.getInt("LastAdltbChapter", START_CHAPTER);
                     mSpinner.setSelection(lastchapter - START_CHAPTER);
                     changeChapter(lastchapter);
                 } else {
                     // 장을 변경할 때마다 프레퍼런스에 기록한다.
                     int chapter = position + START_CHAPTER;
                     changeChapter(chapter);
-                    SharedPreferences pref = getSharedPreferences("KaExam", 0);
+                    SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
                     SharedPreferences.Editor edit = pref.edit();
-                    edit.putInt("LastKaChapter", chapter);
+                    edit.putInt("LastAdltbChapter", chapter);
                     edit.commit();
                 }
             }
@@ -215,7 +172,7 @@ public class KaExam extends Activity {
     }
 
     public void readOption() {
-        SharedPreferences pref = getSharedPreferences("KaExam", 0);
+        SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
         mFontSize = pref.getInt("mFontSize", 1);
         mBackType = pref.getInt("mBackType", 0);
         mDescSide = pref.getBoolean("mDescSide", false);
@@ -240,9 +197,9 @@ public class KaExam extends Activity {
         final Context ctx = this;
         mExamList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                SharedPreferences pref = getSharedPreferences("KaExam", 0);
+                SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
                 SharedPreferences.Editor edit = pref.edit();
-                edit.putInt("LastKaPosition", position);
+                edit.putInt("LastAdltbPosition", position);
                 edit.commit();
                 Intent intent = new Intent(ctx, arKaExample.get(position).cls);
                 startActivity(intent);
@@ -251,8 +208,8 @@ public class KaExam extends Activity {
     }
 
     public void mOnClick(View v) {
-        SharedPreferences pref = getSharedPreferences("KaExam", 0);
-        int lastchapter = pref.getInt("LastKaChapter", START_CHAPTER);
+        SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
+        int lastchapter = pref.getInt("LastAdltbChapter", START_CHAPTER);
         switch (v.getId()) {
             case R.id.btnprev:
                 if (lastchapter !=  START_CHAPTER) {
@@ -261,7 +218,7 @@ public class KaExam extends Activity {
                 }
                 break;
             case R.id.btnnext:
-                if (lastchapter != arKaChapter.length - 1 + START_CHAPTER) {
+                if (lastchapter != arAdltbChapter.length - 1 + START_CHAPTER) {
                     lastchapter++;
                     mSpinner.setSelection(lastchapter - START_CHAPTER);
                 }
@@ -372,8 +329,8 @@ public class KaExam extends Activity {
             case SETTING_ACTIVITY:
                 if (resultCode != RESULT_OK) return;
                 readOption();
-                SharedPreferences pref = getSharedPreferences("KaExam", 0);
-                int lastchapter = pref.getInt("LastKaChapter", START_CHAPTER);
+                SharedPreferences pref = getSharedPreferences("AdltbExam", 0);
+                int lastchapter = pref.getInt("LastAdltbChapter", START_CHAPTER);
                 changeChapter(lastchapter);
                 break;
         }
