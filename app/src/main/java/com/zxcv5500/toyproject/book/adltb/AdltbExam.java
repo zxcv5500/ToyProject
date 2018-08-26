@@ -30,7 +30,7 @@ public class AdltbExam extends Activity {
 
     static final int SETTING_ACTIVITY = 1;
     // 예제가 있는 시작 챕터. 스피너의 첨자에 이 값을 더해야 장 번호가 된다.
-    static final int START_CHAPTER = 2;
+    static final int START_CHAPTER = 1;
 
     class AdltbExample {
         AdltbExample(Class<?> acls, String aDesc) {
@@ -43,11 +43,11 @@ public class AdltbExam extends Activity {
         String Desc;
     }
 
-    ArrayList<AdltbExample> arKaExample = new ArrayList<AdltbExample>();
+    ArrayList<AdltbExample> arAdltbExample = new ArrayList<AdltbExample>();
 
     // 요청한 장의 예제들을 배열에 채운다.
     void fillExample(int chapter) {
-        arKaExample.clear();      // 채우기 전에 arrayList를 깨끗하게 청소한다.
+        arAdltbExample.clear();      // 채우기 전에 arrayList를 깨끗하게 청소한다.
 
         switch (chapter) {
             case 1:     // 안드로이드 스튜디오 기능
@@ -101,24 +101,24 @@ public class AdltbExam extends Activity {
 
     // 예제는 2장부터 제공된다. 2(START_CHAPTER)장이 첨자 0번이다.
     String[] arAdltbChapter = {
-            "2장 안드로이드 스튜디오 기능",
-            "3장 컴포넌트 복습 ①: 액티비티와 프래그먼트 기초",
-            "4장 Content Provider / Broadcastcast Receiver / Service",
-            "5장 지원라이브러리 / RecyclerView",
-            "6장 mvp / mvvm",
-            "7장 gradle",
-            "8장 테스트",
-            "9장 UI 테스트",
-            "10장 디자인",
-            "11장 머터리얼 디자인 이해",
-            "12장 머터리얼 디자인 구현",
-            "13장 안드로이드 보안 모델",
-            "14장 병목 개선",
-            "15장 모네타이즈 실현(광고) 인앱결제",
-            "16장 지문 인증",
-            "17장 앱의 장점을 전하자. 앱 공개",
-            "18장 공개한 앱을 성장 시킨다. 그로스 핵",
-            "19장 푸시 알림gcm",
+            "1장 안드로이드 스튜디오 기능",
+            "2장 컴포넌트 복습 ①: 액티비티와 프래그먼트 기초",
+            "3장 Content Provider / Broadcastcast Receiver / Service",
+            "4장 지원라이브러리 / RecyclerView",
+            "5장 mvp / mvvm",
+            "6장 gradle",
+            "7장 테스트",
+            "8장 UI 테스트",
+            "9장 디자인",
+            "10장 머터리얼 디자인 이해",
+            "11장 머터리얼 디자인 구현",
+            "12장 안드로이드 보안 모델",
+            "13장 병목 개선",
+            "14장 모네타이즈 실현(광고) 인앱결제",
+            "15장 지문 인증",
+            "16장 앱의 장점을 전하자. 앱 공개",
+            "17장 공개한 앱을 성장 시킨다. 그로스 핵",
+            "18장 푸시 알림gcm",
     };
 
     ArrayAdapter<CharSequence> mAdapter;
@@ -201,7 +201,7 @@ public class AdltbExam extends Activity {
                 SharedPreferences.Editor edit = pref.edit();
                 edit.putInt("LastAdltbPosition", position);
                 edit.commit();
-                Intent intent = new Intent(ctx, arKaExample.get(position).cls);
+                Intent intent = new Intent(ctx, arAdltbExample.get(position).cls);
                 startActivity(intent);
             }
         });
@@ -239,11 +239,11 @@ public class AdltbExam extends Activity {
         }
 
         public int getCount() {
-            return arKaExample.size();
+            return arAdltbExample.size();
         }
 
         public String getItem(int position) {
-            return arKaExample.get(position).Name;
+            return arAdltbExample.get(position).Name;
         }
 
         public long getItemId(int position) {
@@ -285,8 +285,8 @@ public class AdltbExam extends Activity {
                     break;
             }
 
-            txt1.setText(arKaExample.get(position).Name);
-            txt2.setText(arKaExample.get(position).Desc);
+            txt1.setText(arAdltbExample.get(position).Name);
+            txt2.setText(arAdltbExample.get(position).Desc);
 
             return convertView;
         }
@@ -307,7 +307,7 @@ public class AdltbExam extends Activity {
             case 1:
                 new AlertDialog.Builder(this)
                         .setTitle("프로그램 소개")
-                        .setMessage("깡샘의 안드로이드(책)의 예제 모음 프로그램입니다.\n" +
+                        .setMessage("안드로이드 개발 레벨업 교과서(책)의 예제 모음 프로그램입니다.\n" +
                                 "상단의 스피너에서 패키지를 선택하고 목록에서 예제를 선택하십시오.")
                         .setIcon(R.drawable.andexam)
                         .setPositiveButton("닫기", null)

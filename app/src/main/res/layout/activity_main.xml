@@ -19,4 +19,11 @@
         android:layout_height="wrap_content"
         android:text="깡샘의 안드로이드 예제"
         />
+
+    <TextView
+        android:id="@+id/bookAdltb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안드로이드 개발 레벨업 교과서"
+        />
 </LinearLayout>

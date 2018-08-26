@@ -151,8 +151,10 @@
         <!-- apc c21 액션바 start -->
         <activity android:name=".book.apc.c21_actionbar.ActionBarTest" android:label="ActionBarTest"/>
         <activity android:name=".book.apc.c21_actionbar.NoActionBar" android:label="NoActionBar" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-            <!--android:theme="@android:style/Theme.Holo.NoActionBar"-->
+        <!--android:theme="@android:style/Theme.Holo.NoActionBar"-->
 
+        <!-- 안드로이드 개발 레벨업 가이드 start -->
+        <activity android:name=".book.adltb.AdltbExam" android:label="AdltbExam"/>
 
     </application>
 
