@@ -85,6 +85,12 @@ import com.zxcv5500.toyproject.book.apc.c16_dialog.SelectDialog2;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.SelectDialog3;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.ShowDialog;
 import com.zxcv5500.toyproject.book.apc.c16_dialog.TouchOutside;
+import com.zxcv5500.toyproject.book.apc.c18_process.Center;
+import com.zxcv5500.toyproject.book.apc.c18_process.DragReorder;
+import com.zxcv5500.toyproject.book.apc.c18_process.FullScreen;
+import com.zxcv5500.toyproject.book.apc.c18_process.NoTitle;
+import com.zxcv5500.toyproject.book.apc.c18_process.Overlay;
+import com.zxcv5500.toyproject.book.apc.c18_process.WindowManagerTest;
 import com.zxcv5500.toyproject.book.apc.c20_fragment.DialogFragmentTest;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.ActionBarTest;
 import com.zxcv5500.toyproject.book.apc.c21_actionbar.NoActionBar;
@@ -237,8 +243,16 @@ public class ApcExam extends AppCompatActivity {
             case 17: // 액티비티
                 break;
             case 18: // 프로세스
+//                arExample.add(new Example(ApplicationTest.class, "Application 객체 테스트"));
+                arExample.add(new Example(NoTitle.class, "타이틀 바 없음"));
+                arExample.add(new Example(FullScreen.class, "전체 화면 사용"));
+                arExample.add(new Example(Overlay.class, "레이아웃 겹치기"));
+                arExample.add(new Example(Center.class, "화면 중앙에 윈도우 열기"));
+                arExample.add(new Example(WindowManagerTest.class, "윈도우 관리자"));
+                arExample.add(new Example(DragReorder.class, "드래그해서 항목 순서 변경하기"));
                 break;
             case 19: // 쓰레드
+
                 break;
             case 20: // 프래그먼트
 //                arExample.add(new Example(FragmentTest.class, "프래그먼트"));

@@ -42,7 +42,6 @@
             android:name=".book.apc.c33_multimedia.SHCamera"
             android:screenOrientation="landscape" />
 
-
         <!-- 강쌤 책 액티비티들 -->
         <activity android:name=".book.ka.ch28.Lab28_2Activity" />
 
@@ -145,16 +144,53 @@
         <activity android:name=".book.apc.c16_dialog.OrderDialog" />
         <activity android:name=".book.apc.c16_dialog.Popup" />
 
+        <!-- apc c18 프로세스 start -->
+        <!-- <activity android:name=".book.apc.c18_process.ApplicationTest" android:label="ApplicationTest" /> -->
+        <activity
+            android:name=".book.apc.c18_process.NoTitle"
+            android:label="NoTitle" />
+        <!--
+             <activity android:name=".c18_process.NoTitle" android:label="NoTitle"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        -->
+        <activity
+            android:name=".book.apc.c18_process.FullScreen"
+            android:label="FullScreen" />
+        <!--
+             <activity android:name=".c18_process.FullScreen" android:label="FullScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        -->
+        <activity
+            android:name=".book.apc.c18_process.Overlay"
+            android:label="Overlay" />
+        <activity
+            android:name=".book.apc.c18_process.Center"
+            android:label="Center"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name=".book.apc.c18_process.WindowManagerTest"
+            android:label="WindowManagerTest" />
+        <activity android:name=".book.apc.c18_process.DragReorder" android:label="DragReorder" />
+
+
         <!-- apc c20 프래그먼트 start -->
         <activity android:name=".book.apc.c20_fragment.DialogFragmentTest" />
 
         <!-- apc c21 액션바 start -->
-        <activity android:name=".book.apc.c21_actionbar.ActionBarTest" android:label="ActionBarTest"/>
-        <activity android:name=".book.apc.c21_actionbar.NoActionBar" android:label="NoActionBar" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <!--android:theme="@android:style/Theme.Holo.NoActionBar"-->
+        <activity
+            android:name=".book.apc.c21_actionbar.ActionBarTest"
+            android:label="ActionBarTest" />
+        <activity
+            android:name=".book.apc.c21_actionbar.NoActionBar"
+            android:label="NoActionBar"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!-- android:theme="@android:style/Theme.Holo.NoActionBar" -->
+
 
         <!-- 안드로이드 개발 레벨업 가이드 start -->
-        <activity android:name=".book.adltb.AdltbExam" android:label="AdltbExam"/>
+        <activity
+            android:name=".book.adltb.AdltbExam"
+            android:label="AdltbExam" />
 
     </application>
 
