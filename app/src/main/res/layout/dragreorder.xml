@@ -11,7 +11,7 @@
         android:text="Drag Test"
         android:textSize="8pt" />
 
-    <andexam.ver6.c18_process.ReorderScrollView
+    <com.zxcv5500.toyproject.book.apc.c18_process.ReorderScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,8 +21,10 @@
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"></LinearLayout>
-    </andexam.ver6.c18_process.ReorderScrollView>
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </com.zxcv5500.toyproject.book.apc.c18_process.ReorderScrollView>
 
     <Button
         android:layout_width="match_parent"
