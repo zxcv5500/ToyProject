@@ -23,6 +23,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.zxcv5500.toyproject.R;
+import com.zxcv5500.toyproject.book.adltb.ch05.DataBindingSampleActivity;
 
 import java.util.ArrayList;
 
@@ -63,7 +64,7 @@ public class AdltbExam extends Activity {
 
                 break;
             case 5:     // mvp / mvvm
-
+                arAdltbExample.add(new AdltbExample(DataBindingSampleActivity.class, "데이터바인딩 샘플"));
                 break;
             case 6:     // gradle
 
@@ -121,6 +122,7 @@ public class AdltbExam extends Activity {
             "18장 푸시 알림gcm",
     };
 
+    LinearLayout mLinearLayout;
     ArrayAdapter<CharSequence> mAdapter;
     ListView mExamList;
     Spinner mSpinner;
@@ -134,6 +136,8 @@ public class AdltbExam extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.andexam);
 
+        mLinearLayout = findViewById(R.id.book);
+        mLinearLayout.setBackgroundResource(R.color.colorAccent);
         mExamList = (ListView)findViewById(R.id.examlist);
         mSpinner = (Spinner)findViewById(R.id.spinnerchapter);
         mSpinner.setPrompt("장을 선택하세요.");

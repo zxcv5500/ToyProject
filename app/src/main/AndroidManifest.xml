@@ -42,6 +42,7 @@
             android:name=".book.apc.c33_multimedia.SHCamera"
             android:screenOrientation="landscape" />
 
+
         <!-- 강쌤 책 액티비티들 -->
         <activity android:name=".book.ka.ch28.Lab28_2Activity" />
 
@@ -191,7 +192,8 @@
         <activity
             android:name=".book.adltb.AdltbExam"
             android:label="AdltbExam" />
-
+        <activity android:name=".book.adltb.ch05.DataBindingSampleActivity" />
+        <activity android:name=".book.adltb.ch05.mvvm.view.RepositoryListActivity"></activity>
     </application>
 
 </manifest>
